@@ -1,6 +1,6 @@
 'use strict'
 
-export default class Queue {
+class SimpleAsyncQueue {
 	constructor(options) {
 		this.run = this.run.bind(this)
 		
@@ -24,7 +24,9 @@ export default class Queue {
 	    }
 	}
 
-	add(obj) {
-		this.queue.push(obj)
+	add(item) {
+		this.queue = Array.isArray(item) ? [...this.queue, ...item] : [...this.queue, item]
 	}
 }
+
+module.exports = SimpleAsyncQueue
