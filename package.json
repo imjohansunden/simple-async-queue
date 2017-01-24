@@ -1,6 +1,6 @@
 {
 	"name": "simple-async-queue",
-	"version": "1.0.6",
+	"version": "1.0.8",
 	"description": "A simple queue utility for handling async tasks",
 	"main": "lib/index.js",
 	"repository": {
@@ -18,6 +18,13 @@
 	"babel": {
 		"presets": ["es2015"]
 	},
+	"keywords": [
+		"queue",
+		"async",
+		"asynchronous",
+		"task",
+		"job"
+	],
 	"devDependencies": {
 		"babel-cli": "^6.18.0",
 		"babel-core": "^6.18.2",
