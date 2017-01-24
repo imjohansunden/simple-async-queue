@@ -18,6 +18,13 @@
 	"babel": {
 		"presets": ["es2015"]
 	},
+	"keywords": [
+		"queue",
+		"async",
+		"asynchronous",
+		"task",
+		"job"
+	],
 	"devDependencies": {
 		"babel-cli": "^6.18.0",
 		"babel-core": "^6.18.2",
