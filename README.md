@@ -2,7 +2,7 @@
 
 ### A simple queue utility for running async tasks one at a time
 
-*fyi:* _The origin of this code is pretty old. Nowadays this could be very easily achieved with promises. But if you are not the promise-person this could be something for you :) _
+_The origin of this code is pretty old. Nowadays this could be very easily achieved with promises. But if you are not the promise-person this could be something for you :) _
 
 ```javascript	
 // Require simple-async-queue
